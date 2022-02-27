@@ -3,7 +3,7 @@ import {extendTheme, theme} from "@chakra-ui/react";
 export default extendTheme({
   config: {
     useSystemColorMode: false,
-    initialColorMode: "light",
+    initialColorMode: "dark",
   },
   fonts: {
     body: "Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",

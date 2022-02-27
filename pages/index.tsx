@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.1}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.2}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               And creating some content in Twitter
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.2}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.3}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               Also streaming on Twitch
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.3}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.4}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               And it then goes into YouTube
@@ -160,7 +160,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.4}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.5}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               Also created my first startup, Pency
@@ -173,7 +173,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.5}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.6}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               I am helping people to get that job
@@ -208,7 +208,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.5}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.7}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               To achieve it, I have to befriend companies
@@ -252,7 +252,7 @@ const Home: NextPage = () => {
           </Stack>
         </SlideFade>
 
-        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.5}}}>
+        <SlideFade in transition={{enter: {duration: 0.6, delay: 0.8}}}>
           <Stack spacing={8}>
             <Heading fontWeight={500} size="md">
               Some of that companies are sponsors in the stream
