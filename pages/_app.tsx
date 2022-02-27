@@ -68,10 +68,9 @@ function App({Component, pageProps}: AppProps) {
             paddingY={4}
           >
             <Container
-              _dark={{color: "primary.300"}}
-              color="primary.500"
+              _dark={{color: "whiteAlpha.600"}}
+              color="blackAlpha.600"
               maxWidth="container.md"
-              opacity={0.75}
             >
               <Stack alignItems="center" direction="row" justifyContent="space-between">
                 <Text>Read less, do more.</Text>

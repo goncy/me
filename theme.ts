@@ -12,6 +12,12 @@ export default extendTheme({
     primary: theme.colors.purple,
   },
   components: {
+    Link: {
+      baseStyle: {
+        textDecoration: "underline",
+        textUnderlineOffset: 4,
+      },
+    },
     Heading: {
       baseStyle: {
         color: "primary.500",
