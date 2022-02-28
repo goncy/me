@@ -68,7 +68,7 @@ const Home: NextPage = () => {
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            And creating some content in{" "}
+            I am creating some content in{" "}
             <Link isExternal href="https://twitter.gonzalopozzo.com">
               Twitter
             </Link>
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            Also streaming on{" "}
+            And streaming on{" "}
             <Link isExternal href="https://twitch.gonzalopozzo.com">
               Twitch
             </Link>
@@ -178,7 +178,7 @@ const Home: NextPage = () => {
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            And it then goes into{" "}
+            It then goes into{" "}
             <Link isExternal href="https://youtube.gonzalopozzo.com">
               YouTube
             </Link>
@@ -242,7 +242,7 @@ const Home: NextPage = () => {
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            Also created my first startup,{" "}
+            Created my first startup,{" "}
             <Link isExternal href="https://pency.app">
               Pency
             </Link>
@@ -392,7 +392,7 @@ const Home: NextPage = () => {
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            Some of that companies are sponsors in the stream
+            Some of those companies are sponsors in the stream
           </Heading>
 
           <Text>
