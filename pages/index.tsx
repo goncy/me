@@ -339,7 +339,7 @@ const Home: NextPage = () => {
             <Link isExternal href="https://basement.studio/">
               Basement Studio
             </Link>
-            ,
+            ,{" "}
             <Link isExternal href="https://aerolab.co/">
               Aerolab
             </Link>
@@ -382,7 +382,26 @@ const Home: NextPage = () => {
           </Heading>
 
           <Text>
-            In the last few months, companies like Platzi, Talently, Enviopack, Workana, Indie build
+            In the last few months, companies like{" "}
+            <Link isExternal href="https://platzi.com/">
+              Platzi
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://talently.tech/">
+              Talently
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://www.enviopack.com/">
+              Enviopack
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://workana.com/">
+              Workana
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://indie.build/">
+              Indie build
+            </Link>{" "}
             and more started sponsoring the stream with prizes and money to keep content free for
             users.
           </Text>
