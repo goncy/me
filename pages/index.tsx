@@ -33,22 +33,36 @@ const Home: NextPage = () => {
             Hey there
           </Heading>
           <Text>
-            I am Gonzalo Pozzo, a frontend developer (working with React) and content creator from
-            Argentina, focused on helping people to land their first job in IT.
+            I am Gonzalo Pozzo, a frontend developer and content creator from Buenos Aires,
+            Argentina. Focused on helping people to land their first job in IT.
           </Text>
-        </Stack>
-
-        <Stack spacing={8}>
-          <Heading fontWeight={500} size="md">
-            I am currently working ▲{" "}
+          <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
+            <Stat minWidth={24}>
+              <StatLabel>Development</StatLabel>
+              <StatNumber>+10</StatNumber>
+              <StatHelpText>Years of experience</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>JavaScript</StatLabel>
+              <StatNumber>+8</StatNumber>
+              <StatHelpText>Years of experience</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>React</StatLabel>
+              <StatNumber>+6</StatNumber>
+              <StatHelpText>Years of experience</StatHelpText>
+            </Stat>
+          </Grid>
+          <Text>
+            I have a degree in Multimedia Design and{" "}
+            <Link isExternal href="https://www.linkedin.com/in/gonzalopozzo/details/experience/">
+              have been working
+            </Link>{" "}
+            as a developer, mainly with the JavaScript stack for more than ten years. I joined{" "}
             <Link isExternal href="https://vercel.com">
               Vercel
-            </Link>
-          </Heading>
-          <Text>
-            I joined Vercel in August 2021 as a Solution Architect. It is where I always wanted to
-            work and I am really happy of working there, with an awesome team, doing awesome things
-            and making every day, the web, faster.
+            </Link>{" "}
+            in August 2021 as a Solution Architect, making every day, the web, faster.
           </Text>
         </Stack>
 

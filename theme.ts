@@ -11,6 +11,14 @@ export default extendTheme({
   colors: {
     primary: theme.colors.purple,
   },
+  styles: {
+    global: {
+      "::selection": {
+        color: "white",
+        background: "primary.500",
+      },
+    },
+  },
   components: {
     Link: {
       baseStyle: {
