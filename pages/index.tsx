@@ -5,7 +5,6 @@ import {
   Heading,
   Stack,
   Stat,
-  StatArrow,
   StatHelpText,
   StatLabel,
   StatNumber,
@@ -34,8 +33,8 @@ const Home: NextPage = () => {
             Hey there
           </Heading>
           <Text>
-            I am Gonzalo Pozzo, a frontend developer and content creator from Argentina, focused on
-            helping people to land their first job in IT.
+            I am Gonzalo Pozzo, a frontend developer (working with React) and content creator from
+            Argentina, focused on helping people to land their first job in IT.
           </Text>
         </Stack>
 
@@ -86,13 +85,26 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Followers</StatLabel>
-              <StatNumber>
-                <StatArrow type="increase" />
-                30K
-              </StatNumber>
+              <StatNumber>+30K</StatNumber>
               <StatHelpText>February 2022</StatHelpText>
             </Stat>
           </Grid>
+
+          <Text>
+            Most of the content is related to{" "}
+            <Link isExternal href="https://twitter.com/goncy/status/1396093019246546947">
+              learning React
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://twitter.com/goncy/status/1479807760963362818">
+              web development practice resources
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://twitter.com/goncy/status/1488887527108980737">
+              getting more engagement
+            </Link>
+            , between others.
+          </Text>
         </Stack>
 
         <Stack spacing={8}>
@@ -141,6 +153,13 @@ const Home: NextPage = () => {
               <StatHelpText>February 2022</StatHelpText>
             </Stat>
           </Grid>
+
+          <Text>
+            Topics vary from reviewing LinkedIn profiles, coding projects, interview challenges and
+            preparation, learning technologies, community group talks and interviews to some of the
+            most inluential people in the area, like Cassidy Williams, Belén Curcio, Dan Abramov,
+            Rich Harris, Lee Robinson, Kent C Dodds, Matías Woloski and much more.
+          </Text>
         </Stack>
 
         <Stack spacing={8}>
@@ -173,6 +192,38 @@ const Home: NextPage = () => {
               <StatHelpText>Last 365 days</StatHelpText>
             </Stat>
           </Grid>
+
+          <Text>
+            ie:{" "}
+            <Link isExternal href="https://www.youtube.com/watch?v=-w-P4u0x8ig">
+              Mock interview with Dan abramov
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://www.youtube.com/watch?v=SG5FFwLDuSQ">
+              Mock interview for JR, SSR and SR React developers with real candidates and recruiters
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://youtu.be/DgPcpte1eoA">
+              How to build a cost 0 ecommerce with TypeScript, Next.js, ChakraUI and Google Sheets
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://youtu.be/Rgojq9clGh0">
+              How to get a job as frontend developer
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://youtu.be/noRAYtyFilU">
+              Intro to ChakraUI
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://youtu.be/k3DMgcjG61A">
+              Get a job in MercadoLibre doing this challenge
+            </Link>{" "}
+            and{" "}
+            <Link isExternal href="https://www.youtube.com/channel/UCCvaRcYdZCZBrBQVnsUBg5Q">
+              many more
+            </Link>
+            .
+          </Text>
         </Stack>
 
         <Stack spacing={8}>
@@ -186,6 +237,40 @@ const Home: NextPage = () => {
           <Text>
             Founded Pency, a startup that grew from 0 to 30k stores in less than a year, helping
             people to make it through the COVID-19 pandemic.
+          </Text>
+
+          <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
+            <Stat minWidth={24}>
+              <StatLabel>Stores</StatLabel>
+              <StatNumber>3</StatNumber>
+              <StatHelpText>May 2020</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>Stores</StatLabel>
+              <StatNumber>350</StatNumber>
+              <StatHelpText>June 2020</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>Stores</StatLabel>
+              <StatNumber>1.6K</StatNumber>
+              <StatHelpText>August 2020</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>Stores</StatLabel>
+              <StatNumber>5K</StatNumber>
+              <StatHelpText>November 2020</StatHelpText>
+            </Stat>
+            <Stat minWidth={24}>
+              <StatLabel>Stores</StatLabel>
+              <StatNumber>30K</StatNumber>
+              <StatHelpText>May 2021</StatHelpText>
+            </Stat>
+          </Grid>
+
+          <Text>
+            Pency let people transitioning from a physical store to an online store, easily and
+            free, within a day and no credit cards required. We received several messages and
+            testimonials from people saying that Pency saved their stores from going bankrupt.
           </Text>
         </Stack>
 
@@ -213,10 +298,7 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Hired people</StatLabel>
-              <StatNumber>
-                <StatArrow type="increase" />
-                15
-              </StatNumber>
+              <StatNumber>15</StatNumber>
               <StatHelpText>February 2022</StatHelpText>
             </Stat>
           </Grid>
@@ -253,8 +335,38 @@ const Home: NextPage = () => {
           </Grid>
 
           <Text>
-            And much more, companies involved in this kind of streams includes Basement Studio,
-            Aerolab, Majorkey, Cognizant Softvision, Innovid, Realtrends, Blackbox Vision, Coderio
+            And much more, companies involved in this kind of streams includes{" "}
+            <Link isExternal href="https://basement.studio/">
+              Basement Studio
+            </Link>
+            ,
+            <Link isExternal href="https://aerolab.co/">
+              Aerolab
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://www.majorkeytech.com/">
+              MajorKey
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://www.cognizantsoftvision.com/">
+              Cognizant Softvision
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://innovid.com">
+              Innovid
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://www.real-trends.com/">
+              Realtrends
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://blackbox-vision.tech/">
+              Blackbox Vision
+            </Link>
+            ,{" "}
+            <Link isExternal href="https://coderio.co/">
+              Coderio
+            </Link>{" "}
             and I have +10 companies ready for new challenges.
           </Text>
 
