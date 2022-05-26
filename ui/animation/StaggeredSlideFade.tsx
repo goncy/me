@@ -12,7 +12,7 @@ const StaggeredSlideFade: React.FC<StackProps> = ({children, ...props}) => {
           <motion.div
             initial={{y: 24, opacity: 0, scale: 0.98}}
             transition={{duration: 0.5, ease: [0, 0, 0.2, 1]}}
-            viewport={{once: true, margin: "-200px"}}
+            viewport={{once: true, margin: "-200px 0px"}}
             whileInView={{y: 0, opacity: 1, scale: 1}}
           >
             {child}
