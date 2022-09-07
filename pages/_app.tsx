@@ -74,7 +74,7 @@ function App({Component, pageProps}: AppProps) {
             >
               <Stack alignItems="center" direction="row" justifyContent="space-between">
                 <Text>Read less, do more.</Text>
-                <Text>Quilmes: 2022</Text>
+                <Text>Quilmes: {new Date().getFullYear()}</Text>
               </Stack>
             </Container>
           </Box>

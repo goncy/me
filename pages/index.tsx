@@ -33,8 +33,8 @@ const Home: NextPage = () => {
             Hey there
           </Heading>
           <Text>
-            I am Gonzalo Pozzo, a frontend developer and content creator from Buenos Aires,
-            Argentina. Focused on helping people to land their first job in IT.
+            I am Gonzalo Pozzo (aka goncy), a frontend developer and content creator from Buenos
+            Aires, Argentina. Focused on helping people to land their first (or a better) job in IT.
           </Text>
           <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
             <Stat minWidth={24}>
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>React</StatLabel>
-              <StatNumber>+6</StatNumber>
+              <StatNumber>+7</StatNumber>
               <StatHelpText>Years of experience</StatHelpText>
             </Stat>
           </Grid>
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
 
           <Text>
             In late 2020 I decided to make twitter my main target for content creation. I grew from
-            1K to 30K in ~1 year and the community expanded to other networks like{" "}
+            1K to 45K in ~2 years and the community expanded to other networks like{" "}
             <Link isExternal href="https://discord.gonzalopozzo.com">
               Discord
             </Link>
@@ -99,8 +99,8 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Followers</StatLabel>
-              <StatNumber>+30K</StatNumber>
-              <StatHelpText>February 2022</StatHelpText>
+              <StatNumber>+45K</StatNumber>
+              <StatHelpText>September 2022</StatHelpText>
             </Stat>
           </Grid>
 
@@ -153,18 +153,18 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Viewers</StatLabel>
-              <StatNumber>200</StatNumber>
+              <StatNumber>250</StatNumber>
               <StatHelpText>Average</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Followers</StatLabel>
-              <StatNumber>+10K</StatNumber>
+              <StatNumber>+15K</StatNumber>
               <StatHelpText>42.2/hour</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Subscriptors</StatLabel>
-              <StatNumber>+300</StatNumber>
-              <StatHelpText>February 2022</StatHelpText>
+              <StatNumber>+100</StatNumber>
+              <StatHelpText>September 2022</StatHelpText>
             </Stat>
           </Grid>
 
@@ -192,17 +192,17 @@ const Home: NextPage = () => {
           <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
             <Stat minWidth={24}>
               <StatLabel>Views</StatLabel>
-              <StatNumber>100K</StatNumber>
+              <StatNumber>+200K</StatNumber>
               <StatHelpText>Last 365 days</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>View time</StatLabel>
-              <StatNumber>20K hours</StatNumber>
+              <StatNumber>+40K hours</StatNumber>
               <StatHelpText>Last 365 days</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Subscriptors</StatLabel>
-              <StatNumber>+5K</StatNumber>
+              <StatNumber>+8K</StatNumber>
               <StatHelpText>Last 365 days</StatHelpText>
             </Stat>
           </Grid>
@@ -295,8 +295,8 @@ const Home: NextPage = () => {
 
           <Text>
             Althought people do not tend to report when they get the job, numbers are still
-            impressive. Since I put focus on helping people to get more engagement in their learning
-            process the hires doubled in one month.
+            impressive (+200 in the last year). Since I put focus on helping people to get more
+            engagement in their learning process the hires doubled in one month.
           </Text>
 
           <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
@@ -307,20 +307,20 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Hired people</StatLabel>
-              <StatNumber>6</StatNumber>
-              <StatHelpText>January 2022</StatHelpText>
+              <StatNumber>15</StatNumber>
+              <StatHelpText>February 2022</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Hired people</StatLabel>
-              <StatNumber>15</StatNumber>
-              <StatHelpText>February 2022</StatHelpText>
+              <StatNumber>28</StatNumber>
+              <StatHelpText>August 2022</StatHelpText>
             </Stat>
           </Grid>
         </Stack>
 
         <Stack spacing={8}>
           <Heading fontWeight={500} size="md">
-            To achieve it, I have to befriend companies
+            To achieve it, I befriended companies
           </Heading>
 
           <Text>
@@ -387,6 +387,14 @@ const Home: NextPage = () => {
           <Text>
             Companies with entire recruiting teams assigned to positions triplicated applicances
             within three days from the stream than the ones sourced by their own teams.
+          </Text>
+
+          <Text>
+            You can find some of the positions I&apos;m helping, in my job board,{" "}
+            <Link isExternal href="https://trabajos.gonzalopozzo.com">
+              Joncy
+            </Link>
+            .
           </Text>
         </Stack>
 
