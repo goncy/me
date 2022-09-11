@@ -6,12 +6,13 @@ import {
   Container,
   Hide,
   IconButton,
+  Link,
   Stack,
   Text,
   useColorMode,
 } from "@chakra-ui/react";
 import Head from "next/head";
-import {MoonIcon, SunIcon} from "@chakra-ui/icons";
+import {CalendarIcon, ChatIcon, MoonIcon, SunIcon} from "@chakra-ui/icons";
 
 import theme from "../theme";
 
@@ -50,12 +51,20 @@ function App({Component, pageProps}: AppProps) {
               <Text as="h1" fontSize="lg" fontWeight={500} marginRight="auto">
                 Gonzalo Pozzo
               </Text>
-              <IconButton
-                aria-label="color mode toggle"
-                icon={colorMode === "dark" ? <MoonIcon /> : <SunIcon />}
-                variant="ghost"
-                onClick={toggleColorMode}
-              />
+              <Stack direction="row">
+                <Link isExternal href="https://whatsapp.goncy.dev">
+                  <IconButton aria-label="whatsapp" icon={<ChatIcon />} variant="ghost" />
+                </Link>
+                <Link isExternal href="https://calendar.goncy.dev">
+                  <IconButton aria-label="calendar" icon={<CalendarIcon />} variant="ghost" />
+                </Link>
+                <IconButton
+                  aria-label="color mode toggle"
+                  icon={colorMode === "dark" ? <MoonIcon /> : <SunIcon />}
+                  variant="ghost"
+                  onClick={toggleColorMode}
+                />
+              </Stack>
             </Stack>
           </Hide>
           <Component {...pageProps} />

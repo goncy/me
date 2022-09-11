@@ -130,9 +130,9 @@ const Home: NextPage = () => {
           </Heading>
 
           <Text>
-            Started in late 2020 and I became a Twitch partner within 6 months. I stream twice a
-            week for a huge community, covering some of the most important pain points when looking
-            for a first job in IT.
+            Started in late 2020 and I became a Twitch partner within 6 months. I stream once a week
+            for a large community, covering some of the most important topics when looking for a
+            first job in IT.
           </Text>
 
           <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
@@ -171,7 +171,7 @@ const Home: NextPage = () => {
           <Text>
             Topics vary from reviewing LinkedIn profiles, coding projects, interview challenges and
             preparation, learning technologies, community group talks and interviews to some of the
-            most inluential people in the area, like Cassidy Williams, Belén Curcio, Dan Abramov,
+            most influential people in the area, like Cassidy Williams, Belén Curcio, Dan Abramov,
             Rich Harris, Lee Robinson, Kent C Dodds, Matías Woloski and much more.
           </Text>
         </Stack>
@@ -294,9 +294,9 @@ const Home: NextPage = () => {
           </Heading>
 
           <Text>
-            Althought people do not tend to report when they get the job, numbers are still
-            impressive (+200 in the last year). Since I put focus on helping people to get more
-            engagement in their learning process the hires doubled in one month.
+            Although people do not tend to report when they get the job, numbers are still
+            impressive (+200 in the last year). Since I&apos;ve focused on helping people to get
+            more engagement in their learning process the hires doubled in one month.
           </Text>
 
           <Grid gap={8} templateColumns="repeat(auto-fill, minmax(200px, 1fr))">
