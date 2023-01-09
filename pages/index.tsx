@@ -99,8 +99,8 @@ const Home: NextPage = () => {
             </Stat>
             <Stat minWidth={24}>
               <StatLabel>Followers</StatLabel>
-              <StatNumber>+45K</StatNumber>
-              <StatHelpText>September 2022</StatHelpText>
+              <StatNumber>+50K</StatNumber>
+              <StatHelpText>December 2022</StatHelpText>
             </Stat>
           </Grid>
 
@@ -162,7 +162,7 @@ const Home: NextPage = () => {
               <StatHelpText>42.2/hour</StatHelpText>
             </Stat>
             <Stat minWidth={24}>
-              <StatLabel>Subscriptors</StatLabel>
+              <StatLabel>Subscribers</StatLabel>
               <StatNumber>+100</StatNumber>
               <StatHelpText>September 2022</StatHelpText>
             </Stat>
