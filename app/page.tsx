@@ -1,8 +1,6 @@
-import type {NextPage} from "next";
-
 import StaggeredSlideFade from "../ui/animation/StaggeredSlideFade";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <>
       <StaggeredSlideFade>
