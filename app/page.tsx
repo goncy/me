@@ -36,28 +36,46 @@ const Home: NextPage = () => {
 
             <p>
               I have a degree in Multimedia Design and{" "}
-              <a href="https://www.linkedin.com/in/gonzalopozzo/details/experience/">
+              <a
+                href="https://www.linkedin.com/in/gonzalopozzo/details/experience/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 have been working
               </a>{" "}
               as a developer, mainly with the JavaScript stack for more than ten years. I joined{" "}
-              <a href="https://vercel.com">Vercel</a> in August 2021 as a Solution Architect, making
-              every day, the web, faster.
+              <a href="https://vercel.com" rel="noreferrer" target="_blank">
+                Vercel
+              </a>{" "}
+              in August 2021 as a Solution Architect, making every day, the web, faster.
             </p>
           </div>
         </section>
 
         <section className="flex flex-col gap-4">
           <h2 className="text-purple-400 font-medium text-lg">
-            I am creating some content in <a href="https://twitter.gonzalopozzo.com">Twitter</a>
+            I am creating some content in{" "}
+            <a href="https://twitter.gonzalopozzo.com" rel="noreferrer" target="_blank">
+              Twitter
+            </a>
           </h2>
 
           <div className="flex flex-col gap-8">
             <p>
               In late 2020 I decided to make twitter my main target for content creation. I grew
               from 1K to 45K in ~2 years and the community expanded to other networks like{" "}
-              <a href="https://discord.gonzalopozzo.com">Discord</a>,{" "}
-              <a href="https://youtube.gonzalopozzo.com">YouTube</a> and{" "}
-              <a href="https://twitch.gonzalopozzo.com">Twitch</a>.
+              <a href="https://discord.gonzalopozzo.com" rel="noreferrer" target="_blank">
+                Discord
+              </a>
+              ,{" "}
+              <a href="https://youtube.gonzalopozzo.com" rel="noreferrer" target="_blank">
+                YouTube
+              </a>{" "}
+              and{" "}
+              <a href="https://twitch.gonzalopozzo.com" rel="noreferrer" target="_blank">
+                Twitch
+              </a>
+              .
             </p>
 
             <div className="grid gap-8 grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))]">
@@ -75,12 +93,27 @@ const Home: NextPage = () => {
 
             <p>
               Most of the content is related to{" "}
-              <a href="https://twitter.com/goncy/status/1396093019246546947">learning React</a>,{" "}
-              <a href="https://twitter.com/goncy/status/1479807760963362818">
+              <a
+                href="https://twitter.com/goncy/status/1396093019246546947"
+                rel="noreferrer"
+                target="_blank"
+              >
+                learning React
+              </a>
+              ,{" "}
+              <a
+                href="https://twitter.com/goncy/status/1479807760963362818"
+                rel="noreferrer"
+                target="_blank"
+              >
                 web development practice resources
               </a>
               ,{" "}
-              <a href="https://twitter.com/goncy/status/1488887527108980737">
+              <a
+                href="https://twitter.com/goncy/status/1488887527108980737"
+                rel="noreferrer"
+                target="_blank"
+              >
                 getting more engagement
               </a>
               , between others.
@@ -90,7 +123,10 @@ const Home: NextPage = () => {
 
         <section className="flex flex-col gap-4">
           <h2 className="text-purple-400 font-medium text-lg">
-            And streaming on <a href="https://twitch.gonzalopozzo.com">Twitch</a>
+            And streaming on{" "}
+            <a href="https://twitch.gonzalopozzo.com" rel="noreferrer" target="_blank">
+              Twitch
+            </a>
           </h2>
 
           <div className="flex flex-col gap-8">
@@ -150,7 +186,10 @@ const Home: NextPage = () => {
 
         <section className="flex flex-col gap-4">
           <h2 className="text-purple-400 font-medium text-lg">
-            It then goes into <a href="https://youtube.gonzalopozzo.com">YouTube</a>
+            It then goes into{" "}
+            <a href="https://youtube.gonzalopozzo.com" rel="noreferrer" target="_blank">
+              YouTube
+            </a>
           </h2>
 
           <div className="flex flex-col gap-8">
@@ -179,31 +218,57 @@ const Home: NextPage = () => {
 
             <p>
               ie:{" "}
-              <a href="https://www.youtube.com/watch?v=-w-P4u0x8ig">
+              <a
+                href="https://www.youtube.com/watch?v=-w-P4u0x8ig"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Mock interview with Dan abramov
               </a>
               ,{" "}
-              <a href="https://www.youtube.com/watch?v=SG5FFwLDuSQ">
+              <a
+                href="https://www.youtube.com/watch?v=SG5FFwLDuSQ"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Mock interview for JR, SSR and SR React developers with real candidates and
                 recruiters
               </a>
               ,{" "}
-              <a href="https://youtu.be/DgPcpte1eoA">
+              <a href="https://youtu.be/DgPcpte1eoA" rel="noreferrer" target="_blank">
                 How to build a cost 0 ecommerce with TypeScript, Next.js, ChakraUI and Google Sheets
               </a>
-              , <a href="https://youtu.be/Rgojq9clGh0">How to get a job as frontend developer</a>,{" "}
-              <a href="https://youtu.be/noRAYtyFilU">Intro to ChakraUI</a>,{" "}
-              <a href="https://youtu.be/k3DMgcjG61A">
+              ,{" "}
+              <a href="https://youtu.be/Rgojq9clGh0" rel="noreferrer" target="_blank">
+                How to get a job as frontend developer
+              </a>
+              ,{" "}
+              <a href="https://youtu.be/noRAYtyFilU" rel="noreferrer" target="_blank">
+                Intro to ChakraUI
+              </a>
+              ,{" "}
+              <a href="https://youtu.be/k3DMgcjG61A" rel="noreferrer" target="_blank">
                 Get a job in MercadoLibre doing this challenge
               </a>{" "}
-              and <a href="https://www.youtube.com/channel/UCCvaRcYdZCZBrBQVnsUBg5Q">many more</a>.
+              and{" "}
+              <a
+                href="https://www.youtube.com/channel/UCCvaRcYdZCZBrBQVnsUBg5Q"
+                rel="noreferrer"
+                target="_blank"
+              >
+                many more
+              </a>
+              .
             </p>
           </div>
         </section>
 
         <section className="flex flex-col gap-4">
           <h2 className="text-purple-400 font-medium text-lg">
-            Created my first startup, <a href="https://pency.app">Pency</a>
+            Created my first startup,{" "}
+            <a href="https://pency.app" rel="noreferrer" target="_blank">
+              Pency
+            </a>
           </h2>
 
           <div className="flex flex-col gap-8">
@@ -313,15 +378,38 @@ const Home: NextPage = () => {
 
             <p>
               And much more, companies involved in this kind of streams includes{" "}
-              <a href="https://basement.studio/">Basement Studio</a>,{" "}
-              <a href="https://aerolab.co/">Aerolab</a>,{" "}
-              <a href="https://www.majorkeytech.com/">MajorKey</a>,{" "}
-              <a href="https://www.cognizantsoftvision.com/">Cognizant Softvision</a>,{" "}
-              <a href="https://innovid.com">Innovid</a>,{" "}
-              <a href="https://www.real-trends.com/">Realtrends</a>,{" "}
-              <a href="https://blackbox-vision.tech/">Blackbox Vision</a>,{" "}
-              <a href="https://coderio.co/">Coderio</a> and I have +10 companies ready for new
-              challenges.
+              <a href="https://basement.studio/" rel="noreferrer" target="_blank">
+                Basement Studio
+              </a>
+              ,{" "}
+              <a href="https://aerolab.co/" rel="noreferrer" target="_blank">
+                Aerolab
+              </a>
+              ,{" "}
+              <a href="https://www.majorkeytech.com/" rel="noreferrer" target="_blank">
+                MajorKey
+              </a>
+              ,{" "}
+              <a href="https://www.cognizantsoftvision.com/" rel="noreferrer" target="_blank">
+                Cognizant Softvision
+              </a>
+              ,{" "}
+              <a href="https://innovid.com" rel="noreferrer" target="_blank">
+                Innovid
+              </a>
+              ,{" "}
+              <a href="https://www.real-trends.com/" rel="noreferrer" target="_blank">
+                Realtrends
+              </a>
+              ,{" "}
+              <a href="https://blackbox-vision.tech/" rel="noreferrer" target="_blank">
+                Blackbox Vision
+              </a>
+              ,{" "}
+              <a href="https://coderio.co/" rel="noreferrer" target="_blank">
+                Coderio
+              </a>{" "}
+              and I have +10 companies ready for new challenges.
             </p>
 
             <p>
@@ -331,7 +419,10 @@ const Home: NextPage = () => {
 
             <p>
               You can find some of the positions I&apos;m helping, in my job board,{" "}
-              <a href="https://trabajos.gonzalopozzo.com">Joncy</a>.
+              <a href="https://trabajos.gonzalopozzo.com" rel="noreferrer" target="_blank">
+                Joncy
+              </a>
+              .
             </p>
           </div>
         </section>
@@ -343,12 +434,28 @@ const Home: NextPage = () => {
 
           <div className="flex flex-col gap-8">
             <p>
-              In the last few months, companies like <a href="https://platzi.com/">Platzi</a>,{" "}
-              <a href="https://talently.tech/">Talently</a>,{" "}
-              <a href="https://www.enviopack.com/">Enviopack</a>,{" "}
-              <a href="https://workana.com/">Workana</a>,{" "}
-              <a href="https://indie.build/">Indie build</a> and more started sponsoring the stream
-              with prizes and money to keep content free for users.
+              In the last few months, companies like{" "}
+              <a href="https://platzi.com/" rel="noreferrer" target="_blank">
+                Platzi
+              </a>
+              ,{" "}
+              <a href="https://talently.tech/" rel="noreferrer" target="_blank">
+                Talently
+              </a>
+              ,{" "}
+              <a href="https://www.enviopack.com/" rel="noreferrer" target="_blank">
+                Enviopack
+              </a>
+              ,{" "}
+              <a href="https://workana.com/" rel="noreferrer" target="_blank">
+                Workana
+              </a>
+              ,{" "}
+              <a href="https://indie.build/" rel="noreferrer" target="_blank">
+                Indie build
+              </a>{" "}
+              and more started sponsoring the stream with prizes and money to keep content free for
+              users.
             </p>
 
             <div className="grid gap-8 grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))]">
