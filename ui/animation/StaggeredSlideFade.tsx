@@ -1,10 +1,15 @@
+"use client";
+
 import {Children, isValidElement} from "react";
 import {motion} from "framer-motion";
-import {Stack, StackProps} from "@chakra-ui/react";
 
-const StaggeredSlideFade: React.FC<StackProps> = ({children, ...props}) => {
+type Props = {
+  children: React.ReactNode;
+};
+
+const StaggeredSlideFade: React.FC<Props> = ({children}) => {
   return (
-    <Stack {...props}>
+    <div className="flex flex-col gap-16">
       {Children.map(children, (child) => {
         if (!isValidElement(child)) return null;
 
@@ -19,7 +24,7 @@ const StaggeredSlideFade: React.FC<StackProps> = ({children, ...props}) => {
           </motion.div>
         );
       })}
-    </Stack>
+    </div>
   );
 };
 
