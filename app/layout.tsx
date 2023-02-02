@@ -18,7 +18,7 @@ type Props = {
 
 export default function RootLayout({children}: Props) {
   const nextCookies = cookies();
-  const colorMode = (nextCookies.get("theme")?.value || "dark") as "light" | "dark";
+  const colorMode = (nextCookies.get("theme")?.value as undefined | "light" | "dark") || "dark";
 
   return (
     <html className={colorMode}>
