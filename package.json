@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node" : ">=16.8.0"
+    "node": ">=16.8.0"
   },
   "scripts": {
     "dev": "next dev",
@@ -23,6 +23,7 @@
     "@types/js-cookie": "^3.0.2",
     "@types/node": "^18.11.18",
     "@types/react": "18.0.27",
+    "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
     "autoprefixer": "^10.4.13",

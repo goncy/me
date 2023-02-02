@@ -24,7 +24,7 @@ export default function RootLayout({children}: Props) {
     <html className={colorMode}>
       <head />
       <body
-        className={`${inter.className} dark:bg-gray-800 dark:text-zinc-200 bg-white text-slate-800`}
+        className={`${inter.className} bg-white/90 dark:bg-slate-900 text-black/90 dark:text-white/90 overflow-x-hidden`}
       >
         <main className="max-w-3xl m-auto">
           <header className="print:hidden px-4 items-center justify-between py-4 flex sticky top-0 z-50 backdrop-blur-md mb-24">
@@ -50,7 +50,7 @@ export default function RootLayout({children}: Props) {
             </div>
           </header>
           <article className="relative px-4">{children}</article>
-          <footer className="print:hidden px-4 mt-24 dark:border-gray-700 border-t py-4 flex items-center justify-between">
+          <footer className="print:hidden px-4 mt-24 border-t py-4 flex items-center justify-between border-black/10 dark:border-white/10">
             <p>Read less, do more.</p>
             <p>Quilmes: {new Date().getFullYear()}</p>
           </footer>
