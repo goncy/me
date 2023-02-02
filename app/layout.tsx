@@ -26,7 +26,7 @@ export default function RootLayout({children}: Props) {
       <body
         className={`${inter.className} dark:bg-gray-800 dark:text-zinc-200 bg-white text-slate-800`}
       >
-        <main className="max-w-3xl m-auto px-4 flex flex-col gap-48">
+        <main className="max-w-3xl m-auto px-4 flex flex-col gap-24 md:gap-36">
           <div className="print:hidden">
             <div className="items-center justify-between flex pt-4">
               <h1 className="font-medium mr-auto text-lg">Gonzalo Pozzo</h1>
