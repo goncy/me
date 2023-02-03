@@ -1,6 +1,10 @@
 import StaggeredSlideFade from "../ui/animation/StaggeredSlideFade";
 
-const Home = () => {
+const Home = async () => {
+  const stores = await fetch("https://solutions-acme-stores-api.vercel.app/api/store").then((res) =>
+    res.json(),
+  );
+
   return (
     <>
       <StaggeredSlideFade>
@@ -475,6 +479,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <pre>{JSON.stringify(stores, null, 2)}</pre>
       </StaggeredSlideFade>
     </>
   );

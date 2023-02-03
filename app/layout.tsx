@@ -20,10 +20,6 @@ export default async function RootLayout({children}: Props) {
   const nextCookies = cookies();
   const colorMode = (nextCookies.get("theme")?.value as undefined | "light" | "dark") || "dark";
 
-  const stores = await fetch("https://solutions-acme-stores-api.vercel.app/api/store").then((res) =>
-    res.json(),
-  );
-
   return (
     <html className={colorMode}>
       <head />
@@ -58,7 +54,6 @@ export default async function RootLayout({children}: Props) {
             <p>Read less, do more.</p>
             <p>Quilmes: {new Date().getFullYear()}</p>
           </footer>
-          <pre>{JSON.stringify(stores, null, 2)}</pre>
         </main>
       </body>
     </html>
