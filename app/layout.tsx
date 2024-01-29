@@ -24,7 +24,7 @@ export default function RootLayout({children}: Props) {
     <html className={colorMode}>
       <head />
       <body
-        className={`${inter.className} bg-white/90 dark:bg-primary-900 text-black/90 dark:text-white/90 overflow-x-hidden`}
+        className={`${inter.className} bg-white/90 dark:bg-primary-950 text-black/90 dark:text-white/90 overflow-x-hidden`}
       >
         <main className="max-w-3xl m-auto">
           <header className="print:hidden px-4 items-center justify-between py-4 flex sticky top-0 z-50 backdrop-blur-md mb-24">

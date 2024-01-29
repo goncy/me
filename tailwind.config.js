@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.stone,
+        primary: colors.slate,
       },
     },
   },
