@@ -56,7 +56,7 @@ function Chat({initialMessage}: {initialMessage: string}) {
 
   return (
     <main>
-      <div className="flex flex-col gap-4 m-auto border border-black/10 dark:border-white/10 p-4 rounded-md">
+      <div className="flex flex-col gap-4 m-auto border border-neutral-500/20 p-4 rounded-md">
         <div ref={container} className="flex flex-col gap-4 h-[480px] overflow-y-auto">
           {messages.map((message) => (
             <div
@@ -73,7 +73,7 @@ function Chat({initialMessage}: {initialMessage: string}) {
         </div>
         <form className="flex items-center" onSubmit={handleSubmit}>
           <input
-            className="rounded rounded-r-none flex-1 border border-black/10 dark:border-white/10 text-black py-2 px-4"
+            className="rounded rounded-r-none flex-1 border border-neutral-500/20 text-black py-2 px-4"
             name="question"
             placeholder="Who are you?"
             type="text"

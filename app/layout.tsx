@@ -55,7 +55,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             </div>
           </header>
           <article className="relative px-4">{children}</article>
-          <footer className="print:hidden px-4 mt-24 border-t py-4 flex items-center justify-between border-black/10 dark:border-white/10">
+          <footer className="print:hidden border-t border-neutral-500/20 px-4 mt-24 py-4 flex items-center justify-between">
             <p>Read less, do more.</p>
             <p>Quilmes: {new Date().getFullYear()}</p>
           </footer>
