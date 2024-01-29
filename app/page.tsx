@@ -1,7 +1,7 @@
 import Chat from "../components/Chat";
 import StaggeredSlideFade from "../ui/animation/StaggeredSlideFade";
 
-const Home = () => {
+export default function HomePage() {
   return (
     <StaggeredSlideFade>
       <section className="flex flex-col gap-4">
@@ -471,6 +471,4 @@ const Home = () => {
       </section>
     </StaggeredSlideFade>
   );
-};
-
-export default Home;
+}

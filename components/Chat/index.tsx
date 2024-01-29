@@ -4,18 +4,14 @@ import {useEffect, useRef, useState} from "react";
 
 import {getChatAnswer} from "./actions";
 
-type Message = {
-  id: string;
-  type: "bot" | "user";
-  text: React.ReactNode;
-};
-
-type Props = {
-  initialMessage: string;
-};
-
-function Chat({initialMessage}: Props) {
-  const [messages, setMessages] = useState<Message[]>(() =>
+function Chat({initialMessage}: {initialMessage: string}) {
+  const [messages, setMessages] = useState<
+    {
+      id: string;
+      type: "bot" | "user";
+      text: string;
+    }[]
+  >(() =>
     initialMessage
       ? [
           {

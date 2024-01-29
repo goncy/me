@@ -3,11 +3,7 @@
 import Cookies from "js-cookie";
 import {useRouter} from "next/navigation";
 
-type Props = {
-  colorMode: "dark" | "light";
-};
-
-function ColorModeSwitcher({colorMode}: Props) {
+function ColorModeSwitcher({colorMode}: {colorMode: "dark" | "light"}) {
   const router = useRouter();
 
   function handleToggle() {

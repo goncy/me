@@ -3,11 +3,7 @@
 import {Children, isValidElement} from "react";
 import {motion} from "framer-motion";
 
-type Props = {
-  children: React.ReactNode;
-};
-
-function StaggeredSlideFade({children}: Props) {
+function StaggeredSlideFade({children}: {children: React.ReactNode}) {
   return (
     <div className="flex flex-col gap-16">
       {Children.map(children, (child) => {
