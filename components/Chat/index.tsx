@@ -2,6 +2,8 @@
 
 import {useEffect, useRef, useState} from "react";
 
+import {getChatAnswer} from "./actions";
+
 type Message = {
   id: string;
   type: "bot" | "user";
@@ -39,10 +41,7 @@ function Chat({initialMessage}: Props) {
     );
     setQuestion("");
 
-    const text = await fetch("/api/chat", {
-      method: "POST",
-      body: JSON.stringify({prompt: question}),
-    }).then((res) => res.text());
+    const text = await getChatAnswer(question);
 
     setMessages((messages) =>
       messages.concat({

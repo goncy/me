@@ -12,17 +12,22 @@ const inter = Inter({
   preload: true,
 });
 
-type Props = {
-  children: React.ReactNode;
+export const metadata = {
+  title: "Gonzalo Pozzo",
+  authors: {
+    name: "goncy",
+  },
+  description:
+    "I'm Gonzalo Pozzo, a frontend developer and content creator from Argentina, focused in helping people to land their first job in IT",
+  keywords: "trabajo,frontend,backend,trainee,junior,semisenior,senior",
 };
 
-export default function RootLayout({children}: Props) {
+export default function RootLayout({children}: {children: React.ReactNode}) {
   const nextCookies = cookies();
   const colorMode = (nextCookies.get("theme")?.value as undefined | "light" | "dark") || "dark";
 
   return (
     <html className={colorMode}>
-      <head />
       <body
         className={`${inter.className} bg-white dark:bg-primary-950 text-black/90 dark:text-white/90 overflow-x-hidden`}
       >
