@@ -24,10 +24,10 @@ export default function RootLayout({children}: Props) {
     <html className={colorMode}>
       <head />
       <body
-        className={`${inter.className} bg-white/90 dark:bg-primary-950 text-black/90 dark:text-white/90 overflow-x-hidden`}
+        className={`${inter.className} bg-white dark:bg-primary-950 text-black/90 dark:text-white/90 overflow-x-hidden`}
       >
         <main className="max-w-3xl m-auto">
-          <header className="print:hidden px-4 items-center justify-between py-4 flex sticky top-0 z-50 bg-white/90 dark:bg-primary-950 mb-24">
+          <header className="print:hidden px-4 items-center justify-between py-4 flex sticky top-0 z-50 bg-white/90 dark:bg-primary-950/90 mb-24">
             <h1 className="font-medium mr-auto text-lg">Gonzalo Pozzo</h1>
             <div className="flex gap-8">
               <a href="https://calendar.goncy.dev">
