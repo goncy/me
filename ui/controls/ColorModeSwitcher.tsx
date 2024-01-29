@@ -7,7 +7,7 @@ type Props = {
   colorMode: "dark" | "light";
 };
 
-const ColorModeSwitcher: React.FC<Props> = ({colorMode}) => {
+function ColorModeSwitcher({colorMode}: Props) {
   const router = useRouter();
 
   function handleToggle() {
@@ -47,6 +47,6 @@ const ColorModeSwitcher: React.FC<Props> = ({colorMode}) => {
       )}
     </a>
   );
-};
+}
 
 export default ColorModeSwitcher;

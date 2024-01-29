@@ -1,3 +1,4 @@
+import Chat from "../components/Chat";
 import StaggeredSlideFade from "../ui/animation/StaggeredSlideFade";
 
 const Home = () => {
@@ -5,7 +6,7 @@ const Home = () => {
     <>
       <StaggeredSlideFade>
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">Hey there</h2>
+          <h2 className="text-primary-400 font-medium text-lg">Hey there</h2>
 
           <div className="flex flex-col gap-8">
             <p>
@@ -18,17 +19,23 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Development</p>
                 <p className="text-2xl font-bold">+10</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Years of experience</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">
+                  Years of experience
+                </p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">JavaScript</p>
                 <p className="text-2xl font-bold">+8</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Years of experience</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">
+                  Years of experience
+                </p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">React</p>
                 <p className="text-2xl font-bold">+7</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Years of experience</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">
+                  Years of experience
+                </p>
               </div>
             </div>
 
@@ -51,7 +58,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             I am creating some content in{" "}
             <a href="https://twitter.gonzalopozzo.com" rel="noreferrer" target="_blank">
               Twitter
@@ -80,12 +87,12 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Followers</p>
                 <p className="text-2xl font-bold">1K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">December 2020</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">December 2020</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Followers</p>
                 <p className="text-2xl font-bold">+50K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">December 2022</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">December 2022</p>
               </div>
             </div>
 
@@ -120,7 +127,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             And streaming on{" "}
             <a href="https://twitch.gonzalopozzo.com" rel="noreferrer" target="_blank">
               Twitch
@@ -138,38 +145,38 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Argentina</p>
                 <p className="text-2xl font-bold">1</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">
+                <p className="text-sm text-primary-900 dark:text-primary-300">
                   Software and game development
                 </p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Spanish</p>
                 <p className="text-2xl font-bold">2</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">
+                <p className="text-sm text-primary-900 dark:text-primary-300">
                   Software and game development
                 </p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Worldwide</p>
                 <p className="text-2xl font-bold">18</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">
+                <p className="text-sm text-primary-900 dark:text-primary-300">
                   Software and game development
                 </p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Viewers</p>
                 <p className="text-2xl font-bold">250</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Average</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">Average</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Followers</p>
                 <p className="text-2xl font-bold">+15K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">42.2/hour</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">42.2/hour</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Subscribers</p>
                 <p className="text-2xl font-bold">+100</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">September 2022</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">September 2022</p>
               </div>
             </div>
 
@@ -183,7 +190,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             It then goes into{" "}
             <a href="https://youtube.gonzalopozzo.com" rel="noreferrer" target="_blank">
               YouTube
@@ -200,17 +207,17 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Views</p>
                 <p className="text-2xl font-bold">+200K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Last 365 days</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">Last 365 days</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">View time</p>
                 <p className="text-2xl font-bold">+40K hours</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Last 365 days</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">Last 365 days</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Subscriptors</p>
                 <p className="text-2xl font-bold">+8K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">Last 365 days</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">Last 365 days</p>
               </div>
             </div>
 
@@ -262,7 +269,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             Created my first startup,{" "}
             <a href="https://pency.app" rel="noreferrer" target="_blank">
               Pency
@@ -279,27 +286,27 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Stores</p>
                 <p className="text-2xl font-bold">3</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">May 2020</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">May 2020</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Stores</p>
                 <p className="text-2xl font-bold">350</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">June 2020</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">June 2020</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Stores</p>
                 <p className="text-2xl font-bold">1.6K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">August 2020</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">August 2020</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Stores</p>
                 <p className="text-2xl font-bold">5K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">November 2020</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">November 2020</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Stores</p>
                 <p className="text-2xl font-bold">30K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">May 2021</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">May 2021</p>
               </div>
             </div>
 
@@ -312,7 +319,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             I am helping people to get that job
           </h2>
 
@@ -327,24 +334,24 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Hired people</p>
                 <p className="text-2xl font-bold">6</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">December 2021</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">December 2021</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Hired people</p>
                 <p className="text-2xl font-bold">15</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">February 2022</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">February 2022</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Hired people</p>
                 <p className="text-2xl font-bold">28</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">August 2022</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">August 2022</p>
               </div>
             </div>
           </div>
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             To achieve it, I befriended companies
           </h2>
 
@@ -360,17 +367,17 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Majorkey</p>
                 <p className="text-2xl font-bold">15</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">hires</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">hires</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Enviopack</p>
                 <p className="text-2xl font-bold">4</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">hires</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">hires</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Aerolab</p>
                 <p className="text-2xl font-bold">3</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">hires</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">hires</p>
               </div>
             </div>
 
@@ -426,7 +433,7 @@ const Home = () => {
         </section>
 
         <section className="flex flex-col gap-4">
-          <h2 className="text-purple-400 font-medium text-lg">
+          <h2 className="text-primary-400 font-medium text-lg">
             Some of those companies are sponsors in the stream
           </h2>
 
@@ -460,20 +467,24 @@ const Home = () => {
               <div className="min-w-[6rem]">
                 <p className="text-sm">Prizes</p>
                 <p className="text-2xl font-bold">+1K USD</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">per month</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">per month</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Winners</p>
                 <p className="text-2xl font-bold">+200</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">from 11 countries</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">from 11 countries</p>
               </div>
               <div className="min-w-[6rem]">
                 <p className="text-sm">Participants</p>
                 <p className="text-2xl font-bold">+20K</p>
-                <p className="text-sm text-purple-900 dark:text-purple-300">within a year</p>
+                <p className="text-sm text-primary-900 dark:text-primary-300">within a year</p>
               </div>
             </div>
           </div>
+        </section>
+
+        <section>
+          <Chat initialMessage="Hi, I'm Goncy, bring your questions." />
         </section>
       </StaggeredSlideFade>
     </>

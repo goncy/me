@@ -7,7 +7,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-const StaggeredSlideFade: React.FC<Props> = ({children}) => {
+function StaggeredSlideFade({children}: Props) {
   return (
     <div className="flex flex-col gap-16">
       {Children.map(children, (child) => {
@@ -26,6 +26,6 @@ const StaggeredSlideFade: React.FC<Props> = ({children}) => {
       })}
     </div>
   );
-};
+}
 
 export default StaggeredSlideFade;

@@ -9,5 +9,5 @@ a {
 
 ::selection {
   color: white;
-  background: theme('colors.purple.500')
+  background: theme('colors.primary.500')
 }
