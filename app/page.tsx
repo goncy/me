@@ -1,4 +1,3 @@
-import Chat from "../components/Chat";
 import StaggeredSlideFade from "../ui/animation/StaggeredSlideFade";
 
 export default function HomePage() {
@@ -464,10 +463,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
-
-      <section>
-        <Chat initialMessage="Hi, I'm Goncy, bring your questions." />
       </section>
     </StaggeredSlideFade>
   );
